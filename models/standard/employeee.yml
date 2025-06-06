@@ -1,0 +1,19 @@
+version: 2
+
+models:
+  - name: employeee
+    description: ""
+    columns:
+      - name: emp_id
+        description: ""
+        tests:
+          - test_column_unique:
+              column_name: emp_id
+      - name: emp_name
+        description: ""
+
+      - name: department
+        description: ""
+
+      - name: salary
+        description: ""

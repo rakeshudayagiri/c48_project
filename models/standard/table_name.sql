@@ -1,0 +1,1 @@
+{% create_table('table_name','a','int')%}
